@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree -L 3 -I 'node_modules|.git|.expo' /Users/apple/Dev/habita 2>/dev/null || find /Users/apple/Dev/habita -maxdepth 3 -not -path '*/node_modules/*' -not -path '*/.git/*' -not -path '*/.expo/*' -type f | sort)",
+      "Bash(ls /Users/apple/Dev/habita/app && ls /Users/apple/Dev/habita/app/\\\\\\(tabs\\\\\\) 2>/dev/null; ls /Users/apple/Dev/habita/components && ls /Users/apple/Dev/habita/constants)",
+      "Bash(npx expo install expo-sqlite react-native-svg 2>&1)",
+      "Bash(npx tsc --noEmit 2>&1 | head -80)",
+      "Bash(npx tsc --noEmit 2>&1)",
+      "Bash(npx expo install expo-notifications 2>&1)"
+    ]
+  }
+}
