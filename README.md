@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# Habita
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**The habit tracker that gets out of your way.**
 
-## Get started
+Habita is a minimal habit tracker with mood logging, streak tracking, and smart weekly insights. No account. No subscription. Everything stays on your device.
 
-1. Install dependencies
+<p align="center">
+  <img src="./assets/demo/IMG_8199.PNG" width="30%" alt="Habita Demo 1" />
+  <img src="./assets/demo/IMG_8200.PNG" width="30%" alt="Habita Demo 2" />
+  <img src="./assets/demo/IMG_8201.PNG" width="30%" alt="Habita Demo 3" />
+</p>
+## Overview
 
+Habita is the habit tracker for people who don't need hand-holding.
+
+No streaks hidden behind paywalls. No motivational pop-ups. No account sign-up. Just a clean, fast, privacy-first app that helps you see whether you're actually doing the things you say matter to you.
+
+- **Track habits the right way:** Add any habit with a weekly frequency target (e.g., once a week, three times, every day). A per-habit heatmap strip shows your entire week at a glance.
+- **Your mood tells the full story:** Log a daily mood score from 1–10. A rolling 28-day chart shows patterns, and the app automatically surfaces the correlation between completing your habits and how you feel.
+- **Progress that means something:** Daily summaries, weekly report cards, and milestone moments (7, 14, 30, 60, 100 days) celebrated with haptic feedback.
+- **A year of history, always visible:** Open any habit to see a GitHub-style 52-week heatmap of your entire year.
+- **Completely private by design:** Every piece of data lives on your device in a local SQLite database. No account, no sync, no ads, no subscription.
+
+## Features at a Glance
+
+| Feature | Description |
+| :--- | :--- |
+| **Heatmap strips** | See your whole week in one row — done, skipped, or empty, at a glance. |
+| **Mood + habits, correlated** | Discover whether completing your habits actually makes you feel better — backed by your own data. |
+| **Streak milestones** | Hit 7, 14, 30, 60, or 100 days and feel it — a full-screen moment with haptic celebration. |
+| **Weekly report cards** | Every Monday, a recap of last week's completion rate, mood average, and who's on the longest streak. |
+| **52-week heatmap** | A GitHub-style full-year grid on every habit — your entire history in one screen. |
+| **Day notes** | Long-press any day to add context — "skipped, travelling" or "best run in months". |
+| **Daily summary bar** | One number, one bar — how many habits done today, with a live animated fill. |
+| **Privacy-first** | SQLite. On-device. No account. No subscription. Your data never leaves your phone. |
+| **Minimal by design** | Monochrome palette, clean typography, no dark patterns, no upsells. |
+
+## Development
+
+1. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+2. Start the app:
    ```bash
    npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
